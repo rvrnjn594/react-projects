@@ -1,0 +1,55 @@
+/* Outer Component in which the accordian exists. */
+.outer-component {
+  background-color: gray;
+  display: flex;
+  height: 100vh;
+  width: 100vw;
+  justify-items: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+}
+.button {
+  margin-top: 20px;
+  background: black;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  cursor: pointer;
+}
+/* In case no data is present in the data module. */
+.no-data-present {
+  display: inline-block;
+  font-size: larger;
+  color: blue;
+  align-items: center;
+}
+
+.accordian-component {
+  /* display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column; */
+  gap: 20px;
+  background-color: aquamarine;
+  width: 500px;
+}
+
+.accordian {
+  background: gray;
+  margin-bottom: 10px;
+  padding: 10px 20px;
+}
+.accordian-question {
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: center;
+}
+
+.accordian-answer {
+  color: white;
+  margin-top: 10px;
+  height: auto;
+}
